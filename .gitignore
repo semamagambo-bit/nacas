@@ -1,0 +1,27 @@
+# Environment variables
+.env
+.env.local
+
+# Database
+config/db.php
+
+# Node modules
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploads
+uploads/*
+!uploads/.gitkeep
+
+# Cache
+temp/
+cache/
+
+# OS
+.DS_Store
+Thumbs.db
